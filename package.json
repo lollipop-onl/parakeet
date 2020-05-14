@@ -1,0 +1,10 @@
+{
+  "name": "@lollipop-onl/parakeet",
+  "version": "0.0.1",
+  "description": "Parakeet markdown themes",
+  "main": "index.js",
+  "repository": "https://github.com/lollipop-onl/parakeet.git",
+  "author": "lollipop-onl <lollipop@simochee.net>",
+  "license": "MIT",
+  "private": false
+}
