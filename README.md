@@ -1,6 +1,6 @@
 # Parakeet
 
-Parakeet is a markdown theme pack by LollipopLauncher.
+Parakeet is a markdown theme pack.
 
 ## Available Themes
 
