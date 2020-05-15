@@ -1,0 +1,15 @@
+{
+  "name": "@lollipop-onl/parakeet",
+  "version": "1.0.0",
+  "author": "lollipop-onl <lollipop@simochee.net>",
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/lollipop-onl/parakeet.git",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  }
+}
