@@ -7,12 +7,19 @@
   "private": true,
   "repository": "https://github.com/lollipop-onl/parakeet.git",
   "scripts": {
-    "dev": "yarn workspace @lollipop-onl/parakeet-document dev"
+    "dev": "yarn workspace @lollipop-onl/parakeet-document dev",
+    "lint:css": "stylelint \"src/**/*.{vue,scss}\""
   },
   "workspaces": {
     "packages": [
       "packages/*"
     ],
     "nohoist": []
+  },
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-recess-order": "^2.0.4",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
   }
 }
