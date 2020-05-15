@@ -6,5 +6,8 @@
   "repository": "https://github.com/lollipop-onl/parakeet.git",
   "author": "lollipop-onl <lollipop@simochee.net>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2"
+  }
 }
