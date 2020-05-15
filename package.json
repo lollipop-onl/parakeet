@@ -8,6 +8,7 @@
   "repository": "https://github.com/lollipop-onl/parakeet.git",
   "scripts": {
     "dev": "yarn workspace @lollipop-onl/parakeet-document dev",
+    "lint:js": "eslint --ext .ts,.vue .",
     "lint:css": "stylelint \"src/**/*.{vue,scss}\""
   },
   "workspaces": {
@@ -17,6 +18,11 @@
     "nohoist": []
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^2.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
     "stylelint": "^13.3.3",
     "stylelint-config-recess-order": "^2.0.4",
     "stylelint-config-standard": "^20.0.0",
