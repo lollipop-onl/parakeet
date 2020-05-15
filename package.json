@@ -6,6 +6,9 @@
   "main": "index.js",
   "private": true,
   "repository": "https://github.com/lollipop-onl/parakeet.git",
+  "scripts": {
+    "dev": "yarn workspace @lollipop-onl/parakeet-document dev"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
