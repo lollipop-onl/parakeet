@@ -2,21 +2,6 @@
   "name": "@lollipop-onl/parakeet",
   "version": "1.0.0",
   "author": "lollipop-onl <lollipop@simochee.net>",
-  "license": "MIT",
-  "main": "index.js",
-  "private": true,
-  "repository": "https://github.com/lollipop-onl/parakeet.git",
-  "scripts": {
-    "dev": "yarn workspace @lollipop-onl/parakeet-document dev",
-    "lint:js": "eslint --ext .ts,.vue .",
-    "lint:css": "stylelint \"src/**/*.{vue,scss}\""
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": []
-  },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^2.0.0",
     "eslint": "^7.0.0",
@@ -27,5 +12,20 @@
     "stylelint-config-recess-order": "^2.0.4",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.17.2"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/lollipop-onl/parakeet.git",
+  "scripts": {
+    "dev": "yarn workspace @lollipop-onl/parakeet-document dev",
+    "lint:css": "stylelint \"src/**/*.{vue,scss}\"",
+    "lint:js": "eslint --ext .ts,.vue ."
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
   }
 }

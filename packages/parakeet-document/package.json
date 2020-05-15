@@ -1,19 +1,19 @@
 {
   "name": "@lollipop-onl/parakeet-document",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "private": true,
   "dependencies": {
     "@nuxt/typescript-build": "^0.6.6",
     "nuxt": "^2.12.2",
     "sass-loader": "^8.0.2"
   },
-  "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts generate"
-  },
   "devDependencies": {
     "@nuxt/typescript-runtime": "^0.4.6"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "nuxt-ts generate",
+    "dev": "nuxt-ts"
   }
 }
