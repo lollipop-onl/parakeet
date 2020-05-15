@@ -6,6 +6,7 @@ on:
       - '**.ts'
       - '**.vue'
       - '.eslintrc.yml'
+      - '.prettierrc.yml'
 
 jobs:
   eslint:
